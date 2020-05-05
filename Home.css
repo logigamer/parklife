@@ -1,0 +1,76 @@
+.natpis{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 5rem;
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+
+}
+.kratki_opis{
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    padding-top: 3%;
+}
+.usluge_natpis{
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    padding-top: 3%;
+}
+.usluge_natpis h2{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.vrste_usluga{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.vrste_usluga img{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.mapa{
+    padding-top: 3%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 400px;
+    justify-content: center;
+}
+.mapa iframe{
+    height: 100%;
+    width: 100%;
+}
+.licitar img{
+    padding-top: 3%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+@media screen and (max-width:1100px){
+    .natpis{
+        font-size: 2rem;
+    }
+    .travel{
+        visibility: hidden;
+    }
+    .vrste_usluga{
+        flex-direction: column;
+    }
+}

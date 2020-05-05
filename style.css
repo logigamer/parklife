@@ -1,0 +1,67 @@
+body {
+    display: grid;
+    grid-template-rows: 10% 40% 30% 30% 40% 50%;
+    padding-top: 5%
+}
+
+nav {
+    position: fixed;
+    top:0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    width:100%;
+    background-color: white;
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logo{
+transform: scale(0.3);
+position: absolute;
+left: 5%;
+
+}
+
+.travel
+{
+    position: absolute;
+    right:13%;
+}
+.travel img{
+    width: 63px;
+    height: 50px;
+}
+.nav-links{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+   position: absolute;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: green;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.nav-links li{
+
+    list-style: none;
+}
+
+.burger{
+    display:none;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color:green;  
+    margin: 5px;}

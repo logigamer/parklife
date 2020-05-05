@@ -1,0 +1,41 @@
+.carousel {
+    width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: green;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: green;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+.bg-light{
+    background-color: white!important;
+}
+.navbar-brand_2{
+    visibility: hidden;
+}
+    
+
+@media screen and (min-width:992px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left:  2rem;
+        padding-right: 2rem;
+    }
+   
+}
+@media screen and (max-width:1100px){
+    .navbar-brand_2{
+        visibility:visible;
+        position: relative;
+        left: -8%;
+    }
+    .travel{
+        visibility: hidden;
+    }
+}

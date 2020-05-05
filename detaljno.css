@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+}
+.detalji{
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+.prvi{
+    padding-top: 2%;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+.tekst_prvi{
+    position:relative;
+    left: 82%;
+    text-align: left;
+    transform: translateX(-50%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;
+}
+h3{
+    font-weight: lighter;
+    font-size: 1rem;
+}
+.slika_prva{
+    position: relative;
+    left: -53%;
+}
+.drugi
+{padding-top: 10%;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.tekst_drugi{
+    position:relative;
+    left: 40%;
+    text-align: left;
+    transform: translateX(-50%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;
+}
+.slika_druga{
+    position: relative;
+    left: 19%;
+}
+
+.mali1
+{
+    visibility: hidden;
+}
+
+.mali2{
+    visibility: hidden;
+}
+.veliki2{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.veliki1{
+    position: absolute;
+    top: 50%;
+    left:-40%;
+    transform: translate(-50%,-50%);
+}
+
+.mali2{
+    visibility: hidden;
+}
+@media screen and (max-width:1500px){
+    .detalji{
+        overflow-x: hidden;
+        justify-content: center;
+        align-items: center;
+    }
+    .tekst_prvi{
+        left: 50%;
+        top:0%;
+    }
+.tekst_drugi{
+    left:50%
+}
+    .prvi{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        justify-content: center;
+        text-align: center;
+    }
+    .drugi{
+        padding-top: 20%;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        justify-content: center;
+        text-align: center;
+    }
+    .veliki1{
+        visibility: hidden;
+    }
+    .veliki2{
+        visibility: hidden;
+    }
+    .tekst_prvi{
+        align-items: center;
+    }
+    .slika_prva{
+        padding-top: 10%;
+        margin: auto;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        justify-content: center;
+        align-items: center;
+    }
+    .mali1{
+        visibility: visible;
+        margin: auto;
+    }
+    .mali2{
+        visibility: visible;
+        margin: auto;
+    }
+    .slika_druga{
+        padding-top: 10%;
+        margin: auto;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+@media screen and (max-height:500px){
+    .slika_prva,
+    .slika_druga{
+        padding-top: 5%;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform:translateX(-50%);
+    }
+    .veliki1,
+    .veliki2
+    {
+        position: absolute;
+        top: -500%;
+        left: -500%;
+        transform: scale(0.01);
+    }
+    .drugi{
+        padding-top: 30%;
+    }
+    .prvi{padding-top: 5%;}
+}
